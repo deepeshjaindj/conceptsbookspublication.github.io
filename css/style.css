@@ -1,0 +1,954 @@
+body {
+  color: #ffffff;
+  font-family: "Nunito", serif;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #006;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  header .companyName {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1225px) {
+  .footerTag {
+    padding-left: 8%;
+  }
+
+  .footerTagline2 {
+    display: none;
+  }
+}
+
+.container-fluid {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: "Merriweather", serif;
+  font-weight: bolder;
+}
+
+.tagline {
+  color: #ffffff;
+  font-family: "Merriweather", serif;
+  font-weight: 100;
+}
+
+.companyName {
+  padding-left: 15px;
+}
+
+.marginBottomZero {
+  margin-bottom: 0;
+}
+
+.topLink {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.topLink:hover {
+  text-decoration: none;
+  color: #f60;
+}
+
+.largeIcon {
+  font-size: 1.25rem;
+}
+
+.topContact {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Nav Bar */
+
+.navigation {
+  background-color: #006;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  position: sticky;
+  z-index: 10;
+  top: 0;
+}
+
+.navBrand {
+  font-family: "Merriweather", serif;
+}
+
+.navbar-dark {
+  font-family: "Nunito", serif;
+}
+
+.active {
+  font-weight: bolder;
+}
+
+.non-active {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.nav-link:hover {
+  color: #f60 !important;
+  font-weight: bolder !important;
+}
+
+/* Main Header Section */
+
+#main {
+  overflow-x: hidden;
+}
+
+.mainHead {
+  background-image: white;
+}
+
+.colorDeepBlue {
+  background-color: #006;
+}
+
+.colorOrange {
+  background-color: #f60;
+}
+
+.cbpiTitle {
+  font-size: 3rem;
+  font-family: "Rye", cursive;
+}
+
+.fadeAnimation {
+  animation-name: fadeIn;
+  animation-duration: 4s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.marginHead {
+  padding-left: 7%;
+}
+
+.headTagline {
+  font-size: 1.5rem;
+  color: #f60;
+  font-family: "Merriweather", serif;
+  font-weight: bolder;
+  line-height: 2.5rem;
+}
+
+.headTagline2 {
+  font-size: 1.5rem;
+  font-family: "Dancing Script", cursive;
+}
+
+#main .btn-outline-light {
+  font-family: "Merriweather", serif;
+}
+
+#main .btn-outline-light:hover {
+  color: #ffffff;
+  font-weight: bold;
+  border-color: #f60;
+  background-color: #f60 !important;
+}
+
+/* Newsletter */
+
+.btn-dark {
+  background-color: #006 !important;
+  font-weight: bold;
+  border: 1px solid #000066;
+}
+
+#indexNewsletter .btn-dark:hover {
+  background-color: #ffffff !important;
+  color: #000066;
+  border-color: #000066;
+}
+
+.newsletterText {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+}
+
+/* About */
+
+.aboutHeading {
+  font-family: "Merriweather Sans", sans-serif;
+  color: #006;
+  line-height: 3.5rem;
+  margin: 0 5%;
+}
+
+.aboutIntro {
+  margin: 0 5%;
+  line-height: 2rem;
+  font-size: 1.15rem;
+}
+
+.aboutFeature {
+  padding: 0 2%;
+}
+
+.aboutBorderRight {
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.aboutIcon {
+  color: #006;
+  font-weight: bolder;
+}
+
+.aboutSubHeading {
+  color: #f60;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+@media (max-width: 991px) {
+  .aboutBorderRight {
+    border: none;
+  }
+}
+
+/* Are you ready? */
+
+#get-started {
+  position: relative;
+  min-height: 200px;
+  background-image: url("../images/library.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#get-started .row {
+  height: 200px;
+}
+
+#get-started .dark-overley {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 102, 0.7);
+  height: 100%;
+  width: 100%;
+}
+
+.getStartedHeading {
+  font-family: "Merriweather Sans", sans-serif;
+  color: #ffffff;
+}
+
+.getStartedText {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* How to Publish */
+
+.cardHeadNumber {
+  color: #006;
+  font-family: "Rye", cursive;
+  font-weight: bold;
+}
+
+.cardTitle {
+  color: #f60;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+#howToPublish .card:hover {
+  background-color: #006;
+  color: #ffffff;
+}
+
+#howToPublish .card:hover .cardHeadNumber {
+  color: #ffffff;
+}
+
+/* Pricing Section */
+
+.pricingSection {
+  background-color: whitesmoke;
+}
+
+#pricing .row {
+  margin: 0 10%;
+}
+
+#pricing .coloumn {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#pricing .card:hover {
+  animation: pulse;
+  animation-duration: 1s;
+}
+
+#pricing .card-title {
+  color: #006;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#pricing .card-text {
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+}
+
+.price {
+  font-weight: bold;
+  color: #f60;
+}
+
+#pricing .btn-outline-secondary {
+  border: none;
+  color: #ffffff;
+  background-color: #006;
+}
+
+#pricing .btn-outline-secondary:hover {
+  border: none;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #f60;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-image: linear-gradient(to bottom right, #006, #000099);
+  min-height: 25vh;
+}
+
+#testimonials p {
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+#testimonials .aboutHeading {
+  color: #ffffff;
+}
+
+/* FAQs */
+
+.question {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.answer {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.faqCardHead {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.faqSubmitButton {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #006;
+  border: none;
+}
+
+.faqSubmitButton:hover {
+  background-color: #ffffff;
+}
+
+.icon {
+  color: #006;
+}
+
+.flip-card {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  transform-style: preserve-3d;
+}
+
+.flip-card-inner:hover {
+  transform: rotateY(0.5turn);
+}
+
+.flip-card-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+.flip-card-back {
+  transform: rotateY(0.5turn);
+}
+
+/* Footer */
+#footer {
+  background-color: whitesmoke;
+}
+
+#footer .caption {
+  font-size: 1rem;
+  font-family: "Nunito", serif;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+#footer .heading {
+  font-family: "Merriweather", serif;
+  color: #006;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#footer .footerTagline {
+  font-family: "Merriweather", serif;
+  color: #006;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#footer .footerTagline2 {
+  color: #f60;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+
+.mapFrame {
+  width: 100%;
+  height: 450px;
+}
+
+.contactDetails {
+  color: #006;
+  font-family: "Merriweather", serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contactHeadOffice {
+  color: #f60;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.contactAddress {
+  line-height: 1.5rem;
+}
+
+.blueBold {
+  color: #006;
+  font-weight: bold;
+}
+
+.orangeText {
+  font-size: 1.15rem;
+  color: #f60;
+  font-family: "Nunito", sans-serif;
+}
+
+#footer .icons {
+  border: 1px solid #006;
+  border-radius: 10%;
+  background-color: #006;
+  color: #ffffff;
+}
+
+#footer .icons:hover {
+  border: 1px solid #f60;
+  border-radius: 10%;
+  background-color: #f60;
+  color: #ffffff;
+}
+
+#mainFooter p {
+  line-height: 1.5rem;
+}
+
+.footerNames {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footerNames:hover {
+  color: gold;
+}
+
+/* --------How to Publish Page---------- */
+
+/* Steps Section */
+
+#publishSteps .stepsHeading {
+  color: #006;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: bold;
+  line-height: 3.5rem;
+}
+
+#publishSteps .stepsContent {
+  font-family: "Nunito", serif;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
+#publishSteps .stepsHeading2 {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  color: #000066;
+}
+
+#publishSteps .stepsCards {
+  border: none;
+}
+
+#publishSteps .stepsCards:hover {
+  background-color: #000066;
+  color: #ffffff !important;
+}
+
+#publishSteps .stepsCards:hover .stepsHeading2 {
+  color: #ffffff;
+}
+
+/* Ready to Publish Book */
+
+#publishBook {
+  background-color: #000066;
+}
+
+#publishBook .publishHeading2 {
+  color: #ff6600;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Roboto" serif;
+}
+
+#publishBook .publishPara {
+  line-height: 2rem;
+  font-weight: 600;
+  font-family: "Nunito", serif;
+}
+
+#publishBook .publishImage {
+  padding: 5% 0;
+  animation-duration: 3s;
+}
+
+/* --------- Services Page ---------- */
+
+#servicesHeader .servicePara {
+  line-height: 2rem;
+  font-size: 1.1rem;
+  font-family: "Nunito", serif;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#servicesHeader .serviceHeaderButton {
+  color: #000066;
+  font-weight: bold;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#servicesHeader .serviceHeaderButton:hover {
+  color: #ffffff;
+  background-color: #f60;
+  border-color: #f60;
+}
+
+#servicesNewsletter {
+  background-color: #000066;
+  color: #ffffff;
+}
+
+#servicesNewsletter .btn-dark {
+  background-color: #ffffff !important;
+  font-weight: bold;
+  border-color: #000066;
+  color: #000066;
+}
+
+#servicesNewsletter .btn-dark:hover {
+  background-color: #f60 !important;
+  border-color: #f60;
+  color: #ffffff;
+}
+
+#servicesMainSection .serviceSubHeading {
+  color: #f60;
+  font-size: 2rem;
+  font-family: "Roboto", serif;
+  font-weight: bold;
+}
+
+#servicesMainSection .serviceSubText {
+  line-height: 1.75rem;
+}
+
+#servicesMainSection .mainSectionButton {
+  border: 1px solid #f60;
+  color: #f60;
+  font-weight: 700;
+}
+
+#servicesMainSection .mainSectionButton:hover {
+  border: 1px solid #000066;
+  color: #ffffff;
+  background-color: #000066;
+}
+
+/* -------- Pricing Page --------- */
+
+#fullImage {
+  position: relative;
+  min-height: 600px;
+  background-image: url("../images/pricingBg.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#fullImage .row {
+  min-height: 600px;
+}
+
+#fullImage .dark-overley {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 102, 0.7);
+  height: 100%;
+  width: 100%;
+}
+
+.fullImageHeading {
+  font-size: 4rem;
+  font-family: "Rye", cursive;
+  color: #ffffff;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.fullImageText {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+#pricingMainSection .row {
+  margin: 0 10%;
+}
+
+#pricingMainSection .coloumn {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#pricingMainSection .card:hover {
+  animation: headShake;
+  animation-duration: 2s;
+}
+
+#pricingMainSection .card-title {
+  color: #006;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#pricingMainSection .card-text {
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+}
+
+.cardHead {
+  color: #006;
+  font-weight: 600;
+  font-size: large;
+}
+
+#pricingMainSection .btn-outline-secondary {
+  border: none;
+  color: #ffffff;
+  background-color: #006;
+}
+
+#pricingMainSection .btn-outline-secondary:hover {
+  border: none;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #f60;
+}
+
+/*--------- Price Calculator Page --------- */
+
+/* Price Calculator */
+
+#priceCalculatorMain {
+  background-image: linear-gradient(whitesmoke, #ffffff);
+}
+
+#priceCalculatorMain .priceCalculatorType {
+  color: #f60;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+#priceCalculatorMain .btn-outline-dark {
+  color: #ffffff;
+  background-color: #006;
+  font-weight: bold;
+  border-color: #006;
+}
+
+#priceCalculatorMain .btn-outline-dark:hover {
+  color: #ffffff;
+  background-color: #f60;
+  font-weight: bold;
+  border-color: #f60;
+}
+
+#priceCalculatorMain .calculatorBorder {
+  background-color: #ffffff;
+  border: 5px #006;
+  border-style: groove;
+  border-radius: 10%;
+}
+
+#priceCalculatorFAQ {
+  background-image: linear-gradient(to bottom right, #006, #000099);
+}
+
+/*--------- Our Work Page ------- */
+
+/* Head Carousel */
+
+#ourWorkShowcase .carousel-caption {
+  z-index: 5;
+}
+
+#ourWorkShowcase .carousel-item {
+  height: 450px;
+}
+
+#ourWorkShowcase .carousel-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 102, 0.7);
+}
+
+#ourWorkShowcase .carousel-image-1 {
+  background: url("../images/CBPI image1.jpg");
+  background-size: cover;
+  height: 500px;
+  background-position: 40% 40%;
+}
+
+#ourWorkShowcase .carousel-image-2 {
+  background: url("../images/CBPI image2.jpg");
+  background-size: cover;
+  height: 500px;
+  background-position: 50% 50%;
+}
+
+#ourWorkShowcase .carousel-image-3 {
+  background: url("../images/CBPI image3.jpg");
+  background-size: cover;
+  height: 500px;
+  background-position: 50% 50%;
+}
+
+#ourWorkShowcase .carousel-heading {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 2rem;
+  line-height: 3.5rem;
+}
+
+#ourWorkShowcase .corousel-text {
+  margin-top: 2%;
+}
+
+/* Books */
+
+#ourWorkMainSection {
+  background-color: whitesmoke;
+}
+
+#ourWorkMainSection .ourWorkHeading {
+  font-size: 3rem;
+  color: #000066;
+  font-family: "Rye", Cursive;
+}
+
+.ourWorkRow1 {
+  color: #ffffff;
+  background-color: #000066;
+}
+
+.ourWorkRow2 {
+  color: #006;
+  background-color: #ffffff;
+}
+
+#ourWorkMainSection .ourWorkRow1 .bookName {
+  font-family: "Merriweather Sans", sans-serif;
+  line-height: 3rem;
+}
+
+#ourWorkMainSection .ourWorkRow2 .bookName {
+  font-family: "Merriweather Sans", sans-serif;
+  line-height: 3rem;
+}
+
+#ourWorkMainSection .bookDiscription {
+  font-family: "Nunito", serif;
+  margin-bottom: 0;
+}
+
+#ourWorkMainSection .ourWorkRow1 a.btn-outline-dark {
+  font-weight: bold;
+  background-color: #ffffff;
+  color: #006;
+}
+
+#ourWorkMainSection .ourWorkRow2 a.btn-outline-dark {
+  font-weight: bold;
+  background-color: #006;
+  border-color: #006;
+  color: #ffffff;
+}
+
+#ourWorkMainSection .ourWorkRow1 a.btn-outline-dark:hover {
+  border-color: #ffffff;
+  background-color: #006;
+  color: #ffffff;
+}
+
+#ourWorkMainSection .ourWorkRow2 a.btn-outline-dark:hover {
+  font-weight: bold;
+  background-color: #ffffff;
+  border-color: #006;
+  color: #006;
+}
+
+#ourWorkMainSection .ourWorkBookAnimation:hover {
+  animation-name: bookHoverEffect;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bookHoverEffect {
+  from {
+    transform: scale(1, 1);
+  }
+
+  to {
+    transform: scale(1.05, 1.05);
+  }
+}
+.bookFooter {
+  background-color: #f60;
+  color: #ffffff;
+  font-family: "Rye", cursive;
+  font-weight: bold;
+}
+
+/* Contact Us Page */
+
+#contactUsMain {
+  overflow-x: hidden;
+}
+
+#contactUsMain .contactBgImg {
+  background-image: url(../images/contactBg.jpg);
+  background-position: 50% 50%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contactUsMain .contactBgOverlay {
+  background-color: rgba(0, 0, 102, 0.5);
+}
+
+#contactUsMain .contactUsColData {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#contactUsMain .contactUsHeading {
+  font-family: "Rye", cursive;
+  font-size: 3.5rem;
+}
+
+#contactUsMain .contactUsText {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
+  font-weight: 600;
+}
+
+#contactUsMain .contactUsHeading2 {
+  color: #000066;
+  font-family: "Rye", cursive;
+  font-size: 3.5rem;
+}
+
+#contactUsMain .icons {
+  font-size: 1.25rem;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 20%;
+}
+
+#contactUsMain .icons:hover {
+  background-color: #ffffff;
+  color: #006;
+  border: 1px solid #ffffff;
+  border-radius: 20%;
+}
+
+#contactUsMain .btn-outline-dark {
+  color: #000066;
+  border-color: #000066;
+  font-weight: bold;
+}
+
+#contactUsMain .btn-outline-dark:hover {
+  color: #ffffff;
+  background-color: #000066;
+  font-weight: bold;
+}

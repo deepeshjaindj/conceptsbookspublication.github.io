@@ -1,0 +1,142 @@
+body {
+  margin-top: 108px;
+  font-family: "Nunito", sans-serif;
+}
+
+.mainHeading {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.mainAuthorName {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.border-primary {
+  border-color: #e00e00 !important;
+}
+
+#showcase .btn-outline-dark {
+  color: #8f0d00 !important;
+  font-weight: bold;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+#showcase .btn-outline-dark:hover {
+  color: #ffffff !important;
+  background-color: #8f0d00;
+  border-color: #8f0d00;
+}
+
+.text-primary {
+  color: #e00e00 !important;
+}
+
+.bg-primary {
+  background-color: #e00e00 !important;
+}
+
+.btn-primary {
+  border-color: #e00e00;
+  background-color: #e00e00;
+}
+
+.btn-primary:hover {
+  border-color: #8f0d00;
+  background-color: #8f0d00;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #e00e00;
+  opacity: 0.9;
+  background: #fff;
+}
+
+.nav-item {
+  font-size: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+#showcase {
+  position: relative;
+  background: url("../images/mountains.jpg");
+  min-height: 600px;
+}
+
+.primary-overlay {
+  background: rgba(224, 14, 0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.subHeading {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 2.5rem;
+  color: #e00e00;
+}
+
+.author-hr {
+  margin-bottom: 90px;
+}
+
+#authors img {
+  margin-top: -60px;
+}
+
+.author-card:hover {
+  background: #e00e00;
+  color: #fff;
+}
+.author-card:hover h3 {
+  color: #fff;
+}
+.author-card:hover h5 {
+  color: #171717;
+}
+.author-card:hover .bi {
+  color: #fff;
+}
+
+.author-head {
+  color: #e00e00;
+}
+
+.author-title {
+  color: #444444;
+}
+
+.author-card .bi {
+  color: #e00e00;
+}
+
+@media (max-width: 991px) {
+  .author-card {
+    margin-bottom: 60px;
+  }
+}
+
+.contactHeading {
+  color: #e00e00;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #f60;
+}
+
+footer .copyRightName:hover {
+  color: gold;
+}
